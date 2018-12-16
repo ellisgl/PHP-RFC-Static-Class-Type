@@ -52,7 +52,7 @@ Utility classes.
 
 ## Warning / Errors / Exceptions:
     $a = new Acme\MyStaticClass;
-    // This should throw ErrorException with message 'static class {className} is not initializable.'
+    // Should: throw new ErrorException("static class 'Acme\MyStaticClass' is not initializable.")
     
     Rest should follow normal class warning / errors / exceptions.
    
