@@ -54,5 +54,5 @@ Utility classes.
     $a = new Acme\MyStaticClass;
     // Should: throw new ErrorException("static class 'Acme\MyStaticClass' is not initializable.")
     
-    Rest should follow normal class warning / errors / exceptions.
+Rest should follow normal class warning / errors / exceptions.
    
